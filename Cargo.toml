@@ -1,0 +1,10 @@
+[package]
+name = "html-to-pdf"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+headless_chrome = {version = "=1.0.14", features = ["fetch"]}
